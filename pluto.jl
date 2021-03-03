@@ -35,7 +35,19 @@ is hard to memorize, so `PlutoUI` makes it more _Julian_:
 ```
 """
 
+# ╔═╡ bfc270de-7c1f-11eb-3afc-950dfc0d695d
+a = LinRange(0,2*pi,100)
+
+# ╔═╡ cb7cc15c-7c1f-11eb-2c84-2f9966ac13ba
+b = sin.(a)
+
+# ╔═╡ d106bb5c-7c1f-11eb-3625-bb4caba95aea
+plot(a,b)
+
 # ╔═╡ Cell order:
 # ╠═0475d562-7c12-11eb-0491-37381c774ab7
 # ╠═12c61d84-7c12-11eb-3743-a59e9e91326e
 # ╠═2849e61e-7c14-11eb-033e-6931d5e10301
+# ╠═bfc270de-7c1f-11eb-3afc-950dfc0d695d
+# ╠═cb7cc15c-7c1f-11eb-2c84-2f9966ac13ba
+# ╠═d106bb5c-7c1f-11eb-3625-bb4caba95aea
