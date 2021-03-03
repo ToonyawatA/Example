@@ -9,6 +9,3 @@ b = np.sin(2*a)
 plt.figure()
 plt.plot(a, b)
 plt.show()
-
-aa = range(10)
-list(aa)
