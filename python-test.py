@@ -1,11 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-a = np.linspace(0,2*np.pi,100)
+a = np.linspace(0, 2*np.pi, 100)
 b = np.sin(2*a)
 
-#print(b)
+# print(b)
 
 plt.figure()
-plt.plot(a,b)
+plt.plot(a, b)
 plt.show()
+
+aa = range(10)
+list(aa)
