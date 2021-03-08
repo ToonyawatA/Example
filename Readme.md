@@ -21,8 +21,7 @@ Content in the first column | Content in the second column
   $$
 
   $3 \times 3$ matrix:
-  \[ \left\{ \begin{array}{ccc}
+  \[\left\{ \begin{array}{ccc}
   a & \left(b\right) & c \\
   d & e & f \\
-  g & h & i \end{array} \right\}
-  \]
+  g & h & i \end{array} \right\}\]
