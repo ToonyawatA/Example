@@ -1,2 +1,6 @@
+def abc(x, y):
+    return x+y
 
-print("Hello world")
+
+def qwe(x, y):
+    return x*y

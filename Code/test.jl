@@ -1,11 +1,7 @@
-using Pkg
-using Plots
+using Plots, LinearAlgebra
 
-a = LinRange(0,4*pi,200)
-b = sin.(a)
-c = cos.(a)
-d = tan.(a)
+a = LinRange(0.0,2*pi,100)
+
+b = sin.(2*a)
 
 plot(a,b)
-plot!(a,c)
-plot(a,d)
