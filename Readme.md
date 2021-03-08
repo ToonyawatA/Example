@@ -25,3 +25,5 @@ Content in the first column | Content in the second column
   a & \left(b\right) & c \\
   d & e & f \\
   g & h & i \end{array} \right\}\]
+
+$\gamma$ + $\delta$
